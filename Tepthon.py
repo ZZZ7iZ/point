@@ -72,21 +72,21 @@ async def handler(event):
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@Tepthon"))
+        await Tepthon1(JoinChannelRequest("@ZZZ7iZ"))
     except BaseException:
         pass
 
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@saythonh"))
+        await Tepthon1(JoinChannelRequest("@ZZZ7iZ"))
     except BaseException:
         pass
         
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@Tepthon_Help"))
+        await Tepthon1(JoinChannelRequest("@ZZZ7iZ"))
     except BaseException:
         pass
       
@@ -94,7 +94,7 @@ async def join_channel(event):
 @Tepthon1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Tepthon1(JoinChannelRequest("@P17_12"))
+        await Tepthon1(JoinChannelRequest("@ZZZ7iZ"))
     except BaseException:
         pass  
 
@@ -155,15 +155,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 ⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝙎𝙋𝘼𝙍𝙆 ⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗧𝗘𝗣𝗧𝗛𝗢𝗡    ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝙎𝙋𝘼𝙍𝙆    ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
 ※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗧𝗔𝗟𝗘𝗕  ※
 
-╰───⌯𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯𝙎𝙋𝘼𝙍𝙆 𝗣𝗢𝗜𝗡𝗧⌯───╯
 ''')
 
 @Tepthon1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -726,7 +726,7 @@ async def OwnerStart(event):
         
 
 
-print("Tepthon Source Point Is Running ✅")
+print("𝙎𝙋𝘼𝙍𝙆 Source Point Is Running ✅")
 Tepthon1.run_until_disconnected()
 
 
